@@ -20,14 +20,3 @@ Feed the fish either manually by specifying the amount of food and click on the 
 Control the lighting inside the aquarium, you have the possibility to choose from an RGB color palette. a night mode linked to a light sensor will turn automatically the white light on when it too dark for the fish.
 Measure the temperature of the aquarium by a temperature waterproof sensor.
 Control the oxygen inside the aquarium. the are two modes; Low and High.
-
-The App was designed with 
-After Prototype: a custom PCB was designed and manufactured:
-
-ISIS.PNG
-caption (optional)
-and the render: 
-
-ISIS 3D.PNG
-PCB render
-
