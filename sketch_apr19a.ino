@@ -1,7 +1,7 @@
 /***************************************************
   SMART AQUARIUM BETA VERSION CODE 
  ****************************************************/
-#include<String.h>
+#include <String.h>
 #include <ESP8266WiFi.h>
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
@@ -10,15 +10,15 @@
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID       "DellPC"
-#define WLAN_PASS       "khalil1997"
+#define WLAN_SSID       "your hotspot"
+#define WLAN_PASS       "your password"
 
 /************************* Adafruit.io Setup *********************************/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "Karem"
-#define AIO_KEY         "d0409e34637c432caa20aee2bdf2801b"
+#define AIO_USERNAME    "username"
+#define AIO_KEY         "API KEY"
 
 /************************* IFTT SMS Setup *********************************/
 
