@@ -6,7 +6,7 @@ View Full Project: https://www.hackster.io/karem_benchikha/smart-aquarium-d4d2dd
 
 Visit my personal portfolio: https://karembenchikha.me 
 
-The Smart Aquarium project was developed by an elite team of students at the National Institue of Applied Science and Technology (INSAT) in Spring 2018.
+The Smart Aquarium project was developed by an elite team of students at the National Institute of Applied Science and Technology (INSAT) in Spring 2018.
 The Team was sponsored by Business&Decisions and was build inside Aerobotix INSAT Club Labs.
 
 The team participated in various Robotics competitions and Hackathons and won the following: 
