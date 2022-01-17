@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_light"
+        android:icon="@drawable/ic_brightness_medium_white_24dp"
+        android:title="@string/title_color" />
+
+    <item
+        android:id="@+id/navigation_temp"
+        android:icon="@drawable/ic_explore_white_24dp"
+        android:title="@string/title_temp" />
+
+    <item
+        android:id="@+id/navigation_feed"
+        android:icon="@drawable/ic_timelapse_white_24dp"
+        android:title="@string/title_feed" />
+
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/ic_phonelink_ring_white_24dp"
+        android:title="@string/title_notif" />
+
+    <item
+        android:id="@+id/navigation_stream"
+        android:icon="@drawable/ic_video_library_white_24dp"
+        android:title="@string/title_video" />
+
+
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AquaBit</string>
+    <string name="tab_text_1">Next</string>
+    <string name="title_temp">Temperature</string>
+    <string name="title_color">Light</string>
+    <string name="title_feed">Feeds</string>
+    <string name="title_notif">Notification</string>
+    <string name="title_video">Stream</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="choose_email_client">Choose email client</string>
+</resources>

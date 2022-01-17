@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:circular="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/Temperature"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Live Streaming"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Switch
+            android:id="@+id/switch_stream"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:checked="true"
+            android:paddingEnd="0dp"
+            android:paddingStart="42dp"
+            android:text="Night Mode" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/colorPickerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout">
+
+        <ImageView
+            android:id="@+id/stream_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="328dp"
+            android:background="?attr/selectableItemBackground"
+            android:padding="42dp"
+            android:src="@drawable/video_player" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="?attr/selectableItemBackground"
+            android:text="Live Stream Aquarium"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="32dp"
+        android:layout_below="@+id/colorPickerFrame"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="bottom" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="Last Feeds"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:text="Feed: Tuesday March 2018 (View)"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:text="Feed: Monday March 2018 (View)"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:text="Feed: Sunday March 2018 (View)"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+</RelativeLayout>
