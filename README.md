@@ -1,38 +1,44 @@
 # SmartAquarium
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Phone app to monitor and control vitals of fish in a home aquarium via ESP32.
 
+[![Hackster](https://img.shields.io/badge/View_on-Hackster-2E9FE6)](https://www.hackster.io/karem_benchikha/smart-aquarium-d4d2dd)
 
-View Full Project: https://www.hackster.io/karem_benchikha/smart-aquarium-d4d2dd
+## Awards
 
-Visit my personal portfolio: 
+- **2nd Place** — IoT Tunisia National Competition
+- **1st Place** — TUNIROBOTS'18 National Projects of Expositions
+- **1st Place** — IEEE Biological IoT on Campus Competition
 
-The Smart Aquarium project was developed by an elite team of students at the National Institute of Applied Science and Technology (INSAT) in Spring 2018.
-The Team was sponsored by Business&Decisions and was build inside Aerobotix INSAT Club Labs.
+## Features
 
-The team participated in various Robotics competitions and Hackathons and won the following: 
+- **Automated Feeding**: Manual or scheduled fish feeding with configurable portions
+- **Smart Lighting**: RGB color palette control + automatic night mode via light sensor
+- **Temperature Monitoring**: Waterproof temperature sensor with real-time readings
+- **Oxygen Control**: Low/High modes for aquarium aeration
+- **Remote Access**: Full control from anywhere via internet-connected mobile app
 
-  2nd Place Winner Award at IoT TUNISIA National Competition
-  
-  1st Place Winner Award at TUNIROBOTS'18 National Projects of Expositions
-  
-  1st Place Winner Award at IEEE' Biological IOT on Campus Competition
+## Repository Contents
 
-The Smart Aquarium aims to monitor and control the vitals of fish inside a home aquarium.
+```
+SmartAquarium/
+├── code/                              # Arduino firmware and Android app source
+├── mechanical-design/                 # 3D models and enclosure designs
+└── electrical-design/                 # Schematics and PCB layouts
+```
 
-As you saw in the YouTube video, a mobile app connected to the internet has access to monitor and control the aquarium. It can :
+## Built With
 
-Feed the fish either manually by specifying the amount of food and click on the feed button or by setting a schedule to choose the time and date of when to feed the fish.
+- **Android App**: Java, MQTT
+- **Microcontroller**: ESP32
+- **Cloud**: Adafruit IO (MQTT)
+- **Sensors**: DS18B20 temperature, LDR light sensor
+- **Actuators**: Servo motor, RGB LED strip, air pump
 
-Control the lighting inside the aquarium, you have the possibility to choose from an RGB color palette. a night mode linked to a light sensor will turn automatically the white light on when it too dark for the fish.
-
-Measure the temperature of the aquarium by a temperature waterproof sensor.
-
-Control the oxygen inside the aquarium. the are two modes; Low and High.
-
-This repository contains: 
-
-code 
-
-mechanical design
-
-electrical design
+Developed at INSAT by an elite student team, sponsored by Business & Decisions, built inside Aerobotix INSAT Club Labs (Spring 2018).

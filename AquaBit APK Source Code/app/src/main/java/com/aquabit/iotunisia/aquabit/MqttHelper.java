@@ -23,11 +23,14 @@ public class MqttHelper {
 
     final private String serverUri = "tcp://io.adafruit.com:1883";
 
-    final private String clientId = "d0409e34637c432caa20aee2bdf2801b";
+    // TODO: Replace with your own Adafruit IO credentials
+    // These were previously hardcoded — they've been redacted for security.
+    // Set your values via gradle BuildConfig or a local config file.
+    final private String clientId = "";
     final private String subscriptionTopic = "Karem/feeds/Temperature";
 
-    final private String username = "Karem";
-    final private String password = "d0409e34637c432caa20aee2bdf2801b";
+    final private String username = "";
+    final private String password = "";
 
     public MqttHelper(Context context){
         mqttAndroidClient = new MqttAndroidClient(context, serverUri, clientId);
